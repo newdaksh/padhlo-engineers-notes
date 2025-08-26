@@ -1,22 +1,34 @@
 import { Button } from "@/components/ui/enhanced-button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { useToast } from "@/hooks/use-toast"
 import { BookOpen, ExternalLink, FileText, Star } from "lucide-react"
+import { useState } from "react"
 
 export function NotesSection() {
   const { toast } = useToast()
+  const [dialogOpen, setDialogOpen] = useState(false)
+  const [currentLink, setCurrentLink] = useState("")
+  const [currentNotesType, setCurrentNotesType] = useState("")
 
   const handleNotesAccess = (notesType: string, link: string) => {
+    setCurrentNotesType(notesType)
+    setCurrentLink(link)
+    setDialogOpen(true)
+  }
+
+  const handleAccept = () => {
+    setDialogOpen(false)
+    window.open(currentLink, '_blank')
+  }
+
+  const handleReject = () => {
+    setDialogOpen(false)
     toast({
-      title: "📚 Access Required!",
-      description: "You have to request access to 'DAKSH JAIN' for accessing these MATERIALS! ⚡",
-      duration: 3000,
+      title: "Thanks for visiting! 🙏",
+      description: "Feel free to explore other sections of the website.",
+      duration: 2000,
     })
-    
-    // Redirect after showing the message
-    setTimeout(() => {
-      window.open(link, '_blank')
-    }, 1500)
   }
 
   return (
@@ -122,6 +134,26 @@ export function NotesSection() {
           </div>
         </div>
       </div>
+
+      {/* Access Permission Dialog */}
+      <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
+        <DialogContent className="sm:max-w-md text-center">
+          <DialogHeader>
+            <DialogTitle className="text-2xl mb-2">📚 Access Required!</DialogTitle>
+            <DialogDescription className="text-lg">
+              You have to request access to <span className="font-bold text-primary">'DAKSH JAIN'</span> for accessing these MATERIALS! ⚡
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter className="flex flex-row gap-3 justify-center mt-6">
+            <Button variant="outline" onClick={handleReject} className="flex-1">
+              Reject
+            </Button>
+            <Button variant="default" onClick={handleAccept} className="flex-1">
+              Accept & Continue
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </section>
   )
 }
