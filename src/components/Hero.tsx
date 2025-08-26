@@ -18,12 +18,12 @@ export function Hero() {
             <span className="text-white/90 drop-shadow-lg">for Every Engineer</span>
           </h1>
 
-          <h2 className="text-xl md:text-3xl font-bold mb-6 leading-tight text-white">
+          <h2 className="text-xl md:text-3xl font-bold mb-6 leading-tight bg-gradient-to-r from-red-400 via-orange-400 to-violet-400 bg-clip-text text-transparent">
             <span className="drop-shadow-lg">
               Specifically for Students in 
             </span>
             <br />
-            <span className="text-white/90 drop-shadow-lg">RTU affiliated Colleges</span>
+            <span className="drop-shadow-lg">RTU affiliated Colleges</span>
           </h2>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
