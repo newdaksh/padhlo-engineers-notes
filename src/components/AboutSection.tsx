@@ -25,12 +25,12 @@ export function AboutSection() {
                 <div className="absolute inset-0 gradient-primary rounded-full blur-md opacity-50 animate-pulse"></div>
                 <Avatar className="relative w-48 sm:w-64 lg:w-80 h-48 sm:h-64 lg:h-80 border-4 border-primary/20 shadow-feature">
                   <AvatarImage 
-                    src="./src/assets/about.png" 
+                    src="https://drive.google.com/file/d/1KrYfv0Yln0TTkQlitLPRbIccTwcJLTV1/view?usp=sharing" 
                     alt="Profile Picture"
                     className="object-cover"
                   />
                   <AvatarFallback className="text-3xl sm:text-4xl lg:text-6xl font-bold gradient-text">
-                    YN
+                    DJ
                   </AvatarFallback>
                 </Avatar>
               </div>
