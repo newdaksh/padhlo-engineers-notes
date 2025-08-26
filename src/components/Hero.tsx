@@ -18,7 +18,7 @@ export function Hero() {
             <span className="text-white/90 drop-shadow-lg">for Every Engineer</span>
           </h1>
 
-          <h2 className="text-xl md:text-3xl font-bold mb-6 leading-tight bg-gradient-to-r from-red-400 via-orange-400 to-violet-400 bg-clip-text text-transparent">
+          <h2 className="text-xl md:text-3xl font-bold mb-6 leading-tight bg-gradient-to-r from-red-400 via-orange-400 to-violet-400 bg-clip-text">
             <span className="drop-shadow-lg">
               Specifically for Students in 
             </span>
