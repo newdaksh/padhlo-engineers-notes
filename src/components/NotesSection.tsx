@@ -73,7 +73,7 @@ export function NotesSection() {
                 variant="hero" 
                 size="lg" 
                 className="w-full group"
-                onClick={() => handleNotesAccess('Core Notes', 'https://drive.google.com/your-core-notes-link')}
+                onClick={() => handleNotesAccess('Core Notes', 'https://drive.google.com/drive/folders/12eW3JIJZvolhQ4xUxsAmh5eMG8SHp6-U?usp=sharing')}
               >
                 Access Core Notes
                 <ExternalLink className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
@@ -114,7 +114,7 @@ export function NotesSection() {
                 variant="accent" 
                 size="lg" 
                 className="w-full group"
-                onClick={() => handleNotesAccess('Branch Notes', 'https://drive.google.com/your-branch-notes-link')}
+                onClick={() => handleNotesAccess('Branch Notes', 'https://drive.google.com/drive/folders/12eW3JIJZvolhQ4xUxsAmh5eMG8SHp6-U?usp=sharing')}
               >
                 Browse Branch Notes
                 <ExternalLink className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
