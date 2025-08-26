@@ -101,14 +101,6 @@ export function AboutSection() {
                     <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                     <span>Creator of comprehensive study materials and notes</span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                    <span>Passionate about helping fellow students succeed</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                    <span>Strong foundation in circuit design and signal processing</span>
-                  </li>
                 </ul>
               </CardContent>
             </Card>
@@ -131,63 +123,10 @@ export function AboutSection() {
                     <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                     <span>Focus on advanced electronic systems and communication</span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                    <span>Active in academic research and project development</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                    <span>Committed to continuous learning and knowledge sharing</span>
-                  </li>
                 </ul>
               </CardContent>
             </Card>
 
-            {/* Skills & Expertise */}
-            <Card className="gradient-card border-0 shadow-feature">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="gradient-primary p-2 rounded-lg">
-                    <Code className="h-5 w-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold">Skills & Expertise</h3>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {skills.map((skill, index) => (
-                    <Badge 
-                      key={index} 
-                      variant="secondary" 
-                      className="px-3 py-1 bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
-                    >
-                      {skill}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Achievements */}
-            <Card className="gradient-card border-0 shadow-feature">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="gradient-primary p-2 rounded-lg">
-                    <Star className="h-5 w-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold">Key Achievements</h3>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {achievements.map((achievement, index) => (
-                    <Badge 
-                      key={index} 
-                      variant="outline" 
-                      className="px-3 py-1 border-primary/30 text-primary hover:bg-primary/10 transition-colors"
-                    >
-                      {achievement}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
 
             {/* Contact Info */}
             <div className="flex items-center justify-center lg:justify-start gap-4 pt-4">
