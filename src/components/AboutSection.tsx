@@ -25,7 +25,7 @@ export function AboutSection() {
                 <div className="absolute inset-0 gradient-primary rounded-full blur-md opacity-50 animate-pulse"></div>
                 <Avatar className="relative w-48 sm:w-64 lg:w-80 h-48 sm:h-64 lg:h-80 border-4 border-primary/20 shadow-feature">
                   <AvatarImage 
-                    src="/public/aboutme.png" 
+                    src="/aboutme.png" 
                     alt="Profile Picture"
                     className="object-cover"
                   />
