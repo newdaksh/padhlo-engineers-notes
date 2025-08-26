@@ -51,7 +51,7 @@ export function NotesSection() {
                 <BookOpen className="h-8 w-8 text-white" />
               </div>
               <CardTitle className="text-2xl font-bold mb-2">
-                Core Engineering Subjects
+                1st Year Engg. Subjects
               </CardTitle>
               <CardDescription className="text-base">
                 Complete notes for Mathematics, Physics, Chemistry, and fundamental engineering courses
@@ -92,10 +92,10 @@ export function NotesSection() {
                 <FileText className="h-8 w-8 text-white" />
               </div>
               <CardTitle className="text-2xl font-bold mb-2">
-                Branch Specific Notes
+                ECE Branch Specific Notes
               </CardTitle>
               <CardDescription className="text-base">
-                Specialized notes for CSE, ECE, Mechanical, Civil, and other engineering branches
+                Specialized notes for Electronics branch
               </CardDescription>
             </CardHeader>
             <CardContent className="text-center space-y-4">
@@ -106,7 +106,7 @@ export function NotesSection() {
                 </div>
                 <div className="flex items-center gap-1">
                   <BookOpen className="h-4 w-4 text-green-500" />
-                  <span>All Branches</span>
+                  <span>ECE Specific</span>
                 </div>
               </div>
               
@@ -116,7 +116,7 @@ export function NotesSection() {
                 className="w-full group"
                 onClick={() => handleNotesAccess('Branch Notes', 'https://drive.google.com/drive/folders/12eW3JIJZvolhQ4xUxsAmh5eMG8SHp6-U?usp=sharing')}
               >
-                Browse Branch Notes
+                Browse ECE Notes
                 <ExternalLink className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
               </Button>
               

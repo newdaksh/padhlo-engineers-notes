@@ -67,7 +67,7 @@ export function Footer() {
             </div>
             
             <div className="text-sm text-muted-foreground">
-              © 2024 पढ़ लो Engineers. All resources are free to use.
+              © 2025 पढ़ लो Engineers. All resources are free to use.
             </div>
           </div>
           

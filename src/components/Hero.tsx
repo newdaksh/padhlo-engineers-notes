@@ -17,6 +17,14 @@ export function Hero() {
             <br />
             <span className="text-white/90 drop-shadow-lg">for Every Engineer</span>
           </h1>
+
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">
+            <span className="drop-shadow-lg">
+              Specifically for Students in 
+            </span>
+            <br />
+            <span className="text-white/90 drop-shadow-lg">RTU affiliated Colleges</span>
+          </h2>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
             Access comprehensive study materials, detailed notes, and resources 

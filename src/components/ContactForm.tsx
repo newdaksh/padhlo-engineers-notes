@@ -69,9 +69,9 @@ export function ContactForm() {
               <div className="mx-auto mb-4 gradient-hero p-4 rounded-full w-fit">
                 <MessageCircle className="h-8 w-8 text-white" />
               </div>
-              <CardTitle className="text-2xl font-bold">Contact Us</CardTitle>
+              <CardTitle className="text-2xl font-bold">FEEDBACK Form</CardTitle>
               <CardDescription className="text-base">
-                Send us a message and we'll respond as soon as possible
+                Send us your Feedback and we'll respond as soon as possible
               </CardDescription>
             </CardHeader>
             <CardContent>
