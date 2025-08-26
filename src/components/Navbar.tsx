@@ -30,9 +30,6 @@ export function Navbar() {
             <a href="#notes" className="text-foreground hover:text-primary transition-smooth">
               Notes
             </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-smooth">
-              Feedback
-            </a>
             <Button variant="hero" size="sm">
               Get Started
             </Button>
@@ -64,13 +61,6 @@ export function Navbar() {
                 onClick={toggleMenu}
               >
                 Notes
-              </a>
-              <a 
-                href="#contact" 
-                className="py-2 text-foreground hover:text-primary transition-smooth"
-                onClick={toggleMenu}
-              >
-                Contact
               </a>
               <Button variant="hero" size="sm" className="self-start">
                 Get Started
