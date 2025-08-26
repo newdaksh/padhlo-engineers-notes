@@ -36,8 +36,8 @@ export function AboutSection() {
               </div>
               
               {/* Name */}
-              <div className="mt-6 mb-4">
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red-500 to-violet-600 bg-clip-text text-transparent text-center lg:text-center">
+              <div className="mt-4 mb-6">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red-500 to-violet-600 bg-clip-text text-transparent text-center">
                   DAKSH JAIN
                 </h3>
               </div>
