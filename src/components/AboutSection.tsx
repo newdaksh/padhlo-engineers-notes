@@ -35,6 +35,13 @@ export function AboutSection() {
                 </Avatar>
               </div>
               
+              {/* Name */}
+              <div className="mt-6 mb-4">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red-500 to-violet-600 bg-clip-text text-transparent text-center lg:text-left">
+                  DAKSH JAIN
+                </h3>
+              </div>
+              
               {/* Social Links */}
               <div className="flex flex-col sm:flex-row gap-3 mt-6 justify-center lg:justify-start">
                 <Button 
