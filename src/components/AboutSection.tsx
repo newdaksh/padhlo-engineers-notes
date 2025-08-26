@@ -37,13 +37,13 @@ export function AboutSection() {
               
               {/* Name */}
               <div className="mt-6 mb-4">
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red-500 to-violet-600 bg-clip-text text-transparent text-center lg:text-left">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red-500 to-violet-600 bg-clip-text text-transparent text-center">
                   DAKSH JAIN
                 </h3>
               </div>
               
               {/* Social Links */}
-              <div className="flex flex-col sm:flex-row gap-3 mt-6 justify-center lg:justify-start">
+              <div className="flex flex-col sm:flex-row gap-3 mt-6 justify-center lg:justify-center">
                 <Button 
                   variant="outline" 
                   className="rounded-full shadow-elegant hover:shadow-glow hover:scale-105 transition-all duration-300 px-6 py-2"
