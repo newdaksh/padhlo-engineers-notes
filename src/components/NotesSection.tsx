@@ -1,8 +1,24 @@
 import { Button } from "@/components/ui/enhanced-button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { useToast } from "@/hooks/use-toast"
 import { BookOpen, ExternalLink, FileText, Star } from "lucide-react"
 
 export function NotesSection() {
+  const { toast } = useToast()
+
+  const handleNotesAccess = (notesType: string, link: string) => {
+    toast({
+      title: "📚 Access Required!",
+      description: "You have to request access to 'DAKSH JAIN' for accessing these MATERIALS! ⚡",
+      duration: 3000,
+    })
+    
+    // Redirect after showing the message
+    setTimeout(() => {
+      window.open(link, '_blank')
+    }, 1500)
+  }
+
   return (
     <section id="notes" className="py-16 px-4 bg-muted/30">
       <div className="container mx-auto">
@@ -41,7 +57,12 @@ export function NotesSection() {
                 </div>
               </div>
               
-              <Button variant="hero" size="lg" className="w-full group">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="w-full group"
+                onClick={() => handleNotesAccess('Core Notes', 'https://drive.google.com/your-core-notes-link')}
+              >
                 Access Core Notes
                 <ExternalLink className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
               </Button>
@@ -77,7 +98,12 @@ export function NotesSection() {
                 </div>
               </div>
               
-              <Button variant="accent" size="lg" className="w-full group">
+              <Button 
+                variant="accent" 
+                size="lg" 
+                className="w-full group"
+                onClick={() => handleNotesAccess('Branch Notes', 'https://drive.google.com/your-branch-notes-link')}
+              >
                 Browse Branch Notes
                 <ExternalLink className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
               </Button>
