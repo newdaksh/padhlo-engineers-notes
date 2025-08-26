@@ -96,6 +96,8 @@ export function NotesSection() {
               </CardTitle>
               <CardDescription className="text-base">
                 Specialized notes for Electronics branch
+                <br />
+                Subjects : NT, ADC, AWP and more...
               </CardDescription>
             </CardHeader>
             <CardContent className="text-center space-y-4">
