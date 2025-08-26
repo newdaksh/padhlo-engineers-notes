@@ -31,7 +31,7 @@ export function Navbar() {
               Notes
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-smooth">
-              Contact
+              Feedback
             </a>
             <Button variant="hero" size="sm">
               Get Started
