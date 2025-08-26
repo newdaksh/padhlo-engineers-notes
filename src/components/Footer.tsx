@@ -1,8 +1,6 @@
-import { BookOpen, Heart, Mail, Share2 } from "lucide-react"
-
+import { BookOpen, Heart, Mail, Share2 } from "lucide-react";
 export function Footer() {
-  return (
-    <footer className="bg-muted/50 py-12 px-4 border-t border-border">
+  return <footer className="bg-muted/50 py-12 px-4 border-t border-border">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Logo & Description */}
@@ -32,9 +30,7 @@ export function Footer() {
               <a href="#notes" className="block text-muted-foreground hover:text-primary transition-smooth text-sm">
                 Study Notes
               </a>
-              <a href="#contact" className="block text-muted-foreground hover:text-primary transition-smooth text-sm">
-                Contact Us
-              </a>
+              
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth text-sm">
                 About Us
               </a>
@@ -78,6 +74,5 @@ export function Footer() {
           </div>
         </div>
       </div>
-    </footer>
-  )
+    </footer>;
 }
