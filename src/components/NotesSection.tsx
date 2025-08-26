@@ -116,7 +116,7 @@ export function NotesSection() {
                 variant="accent" 
                 size="lg" 
                 className="w-full group"
-                onClick={() => handleNotesAccess('Branch Notes', 'https://drive.google.com/drive/folders/12eW3JIJZvolhQ4xUxsAmh5eMG8SHp6-U?usp=sharing')}
+                onClick={() => handleNotesAccess('Branch Notes', 'https://drive.google.com/drive/folders/1s-cp6h9fskgD4mEIP_MCYZOwEf2aUovV?usp=sharing')}
               >
                 Browse ECE Notes
                 <ExternalLink className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
