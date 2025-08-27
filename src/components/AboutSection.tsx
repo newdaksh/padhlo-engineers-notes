@@ -47,7 +47,7 @@ export function AboutSection() {
                 <Button 
                   variant="outline" 
                   className="rounded-full shadow-elegant hover:shadow-glow hover:scale-105 transition-all duration-300 px-6 py-2"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://linkedin.openinapp.co/zbbfg', '_blank')}
                 >
                   <Linkedin className="h-4 w-4 mr-2" />
                   LinkedIn
@@ -55,7 +55,7 @@ export function AboutSection() {
                 <Button 
                   variant="outline" 
                   className="rounded-full shadow-elegant hover:shadow-glow hover:scale-105 transition-all duration-300 px-6 py-2"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://www.instagram.com/daksh.dev.ai?igsh=MWUxM3dxa2thazBzNA==', '_blank')}
                 >
                   <Instagram className="h-4 w-4 mr-2" />
                   Instagram
