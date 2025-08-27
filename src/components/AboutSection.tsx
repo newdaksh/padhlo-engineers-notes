@@ -21,7 +21,7 @@ export function AboutSection() {
           {/* Profile Section */}
           <div className="text-center lg:text-left animate-scale-in">
             <div className="relative mb-8 lg:mb-0">
-              <div className="relative w-48 sm:w-64 lg:w-80 h-48 sm:h-64 lg:h-80 mx-auto lg:mx-0">
+              <div className="relative w-48 sm:w-64 lg:w-80 h-48 sm:h-64 lg:h-80 mx-auto">
                 <div className="absolute inset-0 gradient-primary rounded-full blur-md opacity-50 animate-pulse"></div>
                 <Avatar className="relative w-48 sm:w-64 lg:w-80 h-48 sm:h-64 lg:h-80 border-4 border-primary/20 shadow-feature">
                   <AvatarImage 
@@ -37,7 +37,7 @@ export function AboutSection() {
               
               {/* Name */}
               <div className="mt-6 mb-4 text-center lg:text-left">
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red-500 to-violet-600 bg-clip-text text-transparent">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red-500 to-violet-600 bg-clip-text text-transparent text-center">
                   DAKSH JAIN
                 </h3>
               </div>
