@@ -1,10 +1,17 @@
-import { Button } from "@/components/ui/enhanced-button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Linkedin, Instagram, Mail, MapPin, GraduationCap, Briefcase, Star } from "lucide-react"
+import { Button } from "@/components/ui/enhanced-button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import {
+  Linkedin,
+  Instagram,
+  Mail,
+  MapPin,
+  GraduationCap,
+  Briefcase,
+  Star,
+} from "lucide-react";
 
 export function AboutSection() {
-
   return (
     <section className="py-12 sm:py-16 lg:py-20 px-4 bg-background overflow-hidden">
       <div className="container mx-auto max-w-6xl">
@@ -13,7 +20,8 @@ export function AboutSection() {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto px-2">
-            Passionate ECE student dedicated to sharing knowledge and helping fellow students excel in their academic journey
+            Passionate ECE student dedicated to sharing knowledge and helping
+            fellow students excel in their academic journey
           </p>
         </div>
 
@@ -24,8 +32,8 @@ export function AboutSection() {
               <div className="relative w-48 sm:w-64 lg:w-80 h-48 sm:h-64 lg:h-80 mx-auto lg:mx-0">
                 <div className="absolute inset-0 gradient-primary rounded-full blur-md opacity-50 animate-pulse"></div>
                 <Avatar className="relative w-48 sm:w-64 lg:w-80 h-48 sm:h-64 lg:h-80 border-4 border-primary/20 shadow-feature">
-                  <AvatarImage 
-                    src="/aboutme.png" 
+                  <AvatarImage
+                    src="/aboutme.png"
                     alt="Profile Picture"
                     className="object-cover"
                   />
@@ -34,28 +42,38 @@ export function AboutSection() {
                   </AvatarFallback>
                 </Avatar>
               </div>
-              
+
               {/* Name */}
-              <div className="mt-6 mb-4 text-center lg:text-left">
+              <div
+                className="mt-6 mb-4 text-center lg:text-left"
+                style={{ marginLeft: "56px" }}
+              >
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-red-500 to-violet-600 bg-clip-text text-transparent">
                   DAKSH JAIN
                 </h3>
               </div>
-              
+
               {/* Social Links */}
               <div className="flex flex-col sm:flex-row gap-3 mt-6 justify-center lg:justify-center">
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="rounded-full shadow-elegant hover:shadow-glow hover:scale-105 transition-all duration-300 px-6 py-2"
-                  onClick={() => window.open('https://linkedin.openinapp.co/zbbfg', '_blank')}
+                  onClick={() =>
+                    window.open("https://linkedin.openinapp.co/zbbfg", "_blank")
+                  }
                 >
                   <Linkedin className="h-4 w-4 mr-2" />
                   LinkedIn
                 </Button>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="rounded-full shadow-elegant hover:shadow-glow hover:scale-105 transition-all duration-300 px-6 py-2"
-                  onClick={() => window.open('https://www.instagram.com/daksh.dev.ai?igsh=MWUxM3dxa2thazBzNA==', '_blank')}
+                  onClick={() =>
+                    window.open(
+                      "https://www.instagram.com/daksh.dev.ai?igsh=MWUxM3dxa2thazBzNA==",
+                      "_blank"
+                    )
+                  }
                 >
                   <Instagram className="h-4 w-4 mr-2" />
                   Instagram
@@ -73,16 +91,22 @@ export function AboutSection() {
                   <div className="gradient-primary p-2 rounded-lg flex-shrink-0">
                     <Briefcase className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-semibold">Professional Summary</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold">
+                    Professional Summary
+                  </h3>
                 </div>
                 <ul className="space-y-3 text-muted-foreground text-sm sm:text-base">
                   <li className="flex items-start gap-2">
                     <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                    <span>Dedicated Electronics & Communication Engineering student</span>
+                    <span>
+                      Dedicated Electronics & Communication Engineering student
+                    </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                    <span>Creator of comprehensive study materials and notes</span>
+                    <span>
+                      Creator of comprehensive study materials and notes
+                    </span>
                   </li>
                 </ul>
               </CardContent>
@@ -95,16 +119,22 @@ export function AboutSection() {
                   <div className="gradient-primary p-2 rounded-lg flex-shrink-0">
                     <GraduationCap className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-semibold">Educational Journey</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold">
+                    Educational Journey
+                  </h3>
                 </div>
                 <ul className="space-y-3 text-muted-foreground text-sm sm:text-base">
                   <li className="flex items-start gap-2">
                     <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                    <span>B.Tech in Electronics & Communication Engineering</span>
+                    <span>
+                      B.Tech in Electronics & Communication Engineering
+                    </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Star className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                    <span>Focus on advanced electronic systems and communication</span>
+                    <span>
+                      Focus on advanced electronic systems and communication
+                    </span>
                   </li>
                 </ul>
               </CardContent>
@@ -118,12 +148,14 @@ export function AboutSection() {
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-center sm:text-left">Available for collaboration</span>
+                <span className="text-center sm:text-left">
+                  Available for collaboration
+                </span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
