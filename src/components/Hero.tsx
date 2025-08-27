@@ -24,9 +24,8 @@ export function Hero() {
             Specifically for Students in
           </span>
           <br />
-          <span className="text-red-600
-                   bg-clip-text drop-shadow-lg">
-            RTU affiliated Colleges
+          <span className="text-red-600 ">
+                  RTU affiliated Colleges
           </span>
         </h2>
 
