@@ -19,7 +19,7 @@ export function Hero() {
         </h1>
 
         <h2 className="text-xl md:text-3xl font-bold mb-6 leading-tight">
-          <span className="bg-gradient-to-r from-red-400 via-orange-400 to-violet-400 
+          <span className="bg-gradient-to-r from-red-500 via-orange-500 to-pink-600 
                    bg-clip-text text-transparent drop-shadow-lg">
             Specifically for Students in
           </span>
